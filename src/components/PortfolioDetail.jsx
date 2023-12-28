@@ -1,6 +1,7 @@
 import React from 'react'
 import { useParams } from 'react-router-dom';
 import portfolioItems from '../assets/db/portfolioData';
+import ScreenshotCarousel from './ScreenshotCarousel';
 
 const PortfolioDetail = () => {
     const { portfolioId } = useParams();
@@ -49,7 +50,9 @@ const PortfolioDetail = () => {
         </div>
         <div className="section" id='media'>
             <div className="container">
-                <div>PortfolioDetail</div>
+                <div>
+                    <ScreenshotCarousel screenshots={portfolio.screenshots} />
+                </div>
             </div>
         </div>
     </>

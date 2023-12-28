@@ -6,9 +6,6 @@ import Footer from '../components/Footer'
 const Layout = () => {
   return (
     <div className='layout'>
-        {/* <div className="menu">
-            <Sidebar/>
-        </div> */}
         <Sidebar/>
         <div className="content">            
             <MainRoute/>

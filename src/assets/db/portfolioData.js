@@ -11,6 +11,20 @@ const portfolioItems = [
     description1: 'The platform\'s ability for officials to confirm, cancel, or delegate meetings adds a level of flexibility and responsiveness to their engagements, optimizing the allocation of their time and resources. This autonomy not only increases the efficiency of the scheduling process, but also fosters a sense of empowerment and accountability within the ministry. Furthermore, by enabling seamless delegation, it ensures continuity and accessibility for stakeholders, even when the primary official is unavailable. The platform\'s emphasis on transparency and accountability not only modernizes the guest management system, but also builds trust and credibility in the ministry\'s operations.',
     link: 'https://e-tamu.kemenkopukm.go.id',
     detail:'Visit The Website',
+    screenshots: [
+      '/img/etamu-screenshot1.jpg',
+      '/img/etamu-screenshot2.jpg',
+      '/img/etamu-screenshot3.jpg',
+      '/img/etamu-screenshot4.jpg',
+      '/img/etamu-screenshot5.jpg',
+      '/img/etamu-screenshot6.jpg',
+      '/img/etamu-screenshot7.jpg',
+      '/img/etamu-screenshot8.jpg',
+      '/img/etamu-screenshot9.jpg',
+      '/img/etamu-screenshot10.jpg',
+      '/img/etamu-screenshot11.jpg',
+      '/img/etamu-screenshot12.jpg',
+    ],
   },
   {
     _id: "notes",
@@ -22,6 +36,9 @@ const portfolioItems = [
     description: 'Nulla consectetur ante at vulputate ullamcorper. Donec porta, magna eu facilisis condimentum, leo libero porta tortor, eget feugiat nibh metus sed sem. Nulla facilisi. Integer maximus nunc id nibh laoreet vehicula. Nullam nisl nisi, tincidunt eu porta nec, volutpat in ante. Nulla facilisi. Suspendisse fringilla egestas arcu eget vestibulum. Ut ultricies nulla urna, vel cursus augue lobortis vel. Aenean elementum purus eget massa sodales, non rutrum sapien rhoncus. Cras at auctor orci. Mauris non felis in tellus rhoncus rutrum vel vitae massa. Phasellus aliquet tellus sit amet magna malesuada suscipit. Sed mauris mauris, euismod ac mauris eu, maximus volutpat enim. Mauris vel odio quis libero volutpat tincidunt. Suspendisse non ipsum nec nibh porttitor sagittis vitae sed risus. Praesent sodales congue congue.Nullam sit amet turpis vitae felis tincidunt tempor. Nam in elit enim. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur dapibus aliquam nibh sit amet dapibus. Suspendisse dui nisi, vehicula eget nulla vel, interdum fermentum augue. Duis pharetra dignissim ligula id vulputate. Vivamus euismod egestas sem, non mattis mi mollis at. Vestibulum faucibus vitae leo sit amet aliquet.',
     link: 'https://github.com/firdanmildani/personal-note',
     detail:'View Repository',
+    screenshots: [
+
+    ],
   },
   {
     _id: "assente",
@@ -34,6 +51,9 @@ const portfolioItems = [
     description1: 'Sed mauris mauris, euismod ac mauris eu, maximus volutpat enim. Mauris vel odio quis libero volutpat tincidunt. Suspendisse non ipsum nec nibh porttitor sagittis vitae sed risus. Praesent sodales congue congue.Nullam sit amet turpis vitae felis tincidunt tempor. Nam in elit enim. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur dapibus aliquam nibh sit amet dapibus. Suspendisse dui nisi, vehicula eget nulla vel, interdum fermentum augue. Duis pharetra dignissim ligula id vulputate. Vivamus euismod egestas sem, non mattis mi mollis at. Vestibulum faucibus vitae leo sit amet aliquet.',
     link: '',
     detail:'',
+    screenshots: [
+      
+    ],
   },
   {
     _id: "vanillatelle",
@@ -45,6 +65,9 @@ const portfolioItems = [
     description: 'Nulla consectetur ante at vulputate ullamcorper. Donec porta, magna eu facilisis condimentum, leo libero porta tortor, eget feugiat nibh metus sed sem. Nulla facilisi. Integer maximus nunc id nibh laoreet vehicula. Nullam nisl nisi, tincidunt eu porta nec, volutpat in ante. Nulla facilisi. Suspendisse fringilla egestas arcu eget vestibulum. Ut ultricies nulla urna, vel cursus augue lobortis vel. Aenean elementum purus eget massa sodales, non rutrum sapien rhoncus. Cras at auctor orci. Mauris non felis in tellus rhoncus rutrum vel vitae massa. Phasellus aliquet tellus sit amet magna malesuada suscipit. Sed mauris mauris, euismod ac mauris eu, maximus volutpat enim. Mauris vel odio quis libero volutpat tincidunt. Suspendisse non ipsum nec nibh porttitor sagittis vitae sed risus. Praesent sodales congue congue.Nullam sit amet turpis vitae felis tincidunt tempor. Nam in elit enim. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur dapibus aliquam nibh sit amet dapibus. Suspendisse dui nisi, vehicula eget nulla vel, interdum fermentum augue. Duis pharetra dignissim ligula id vulputate. Vivamus euismod egestas sem, non mattis mi mollis at. Vestibulum faucibus vitae leo sit amet aliquet.',
     link: 'https://vanillatelle.com',
     detail:'Visit The Website',
+    screenshots: [
+      
+    ],
   },
   {
     _id: "fashion-e-commerce",
@@ -56,6 +79,9 @@ const portfolioItems = [
     description: 'Nulla consectetur ante at vulputate ullamcorper. Donec porta, magna eu facilisis condimentum, leo libero porta tortor, eget feugiat nibh metus sed sem. Nulla facilisi. Integer maximus nunc id nibh laoreet vehicula. Nullam nisl nisi, tincidunt eu porta nec, volutpat in ante. Nulla facilisi. Suspendisse fringilla egestas arcu eget vestibulum. Ut ultricies nulla urna, vel cursus augue lobortis vel. Aenean elementum purus eget massa sodales, non rutrum sapien rhoncus. Cras at auctor orci. Mauris non felis in tellus rhoncus rutrum vel vitae massa. Phasellus aliquet tellus sit amet magna malesuada suscipit. Sed mauris mauris, euismod ac mauris eu, maximus volutpat enim. Mauris vel odio quis libero volutpat tincidunt. Suspendisse non ipsum nec nibh porttitor sagittis vitae sed risus. Praesent sodales congue congue.Nullam sit amet turpis vitae felis tincidunt tempor. Nam in elit enim. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur dapibus aliquam nibh sit amet dapibus. Suspendisse dui nisi, vehicula eget nulla vel, interdum fermentum augue. Duis pharetra dignissim ligula id vulputate. Vivamus euismod egestas sem, non mattis mi mollis at. Vestibulum faucibus vitae leo sit amet aliquet.',
     link: '',
     detail:'',
+    screenshots: [
+      
+    ],
   },
   {
     _id: "nayakarya",
@@ -67,6 +93,9 @@ const portfolioItems = [
     description: 'Nulla consectetur ante at vulputate ullamcorper. Donec porta, magna eu facilisis condimentum, leo libero porta tortor, eget feugiat nibh metus sed sem. Nulla facilisi. Integer maximus nunc id nibh laoreet vehicula. Nullam nisl nisi, tincidunt eu porta nec, volutpat in ante. Nulla facilisi. Suspendisse fringilla egestas arcu eget vestibulum. Ut ultricies nulla urna, vel cursus augue lobortis vel. Aenean elementum purus eget massa sodales, non rutrum sapien rhoncus. Cras at auctor orci. Mauris non felis in tellus rhoncus rutrum vel vitae massa. Phasellus aliquet tellus sit amet magna malesuada suscipit. Sed mauris mauris, euismod ac mauris eu, maximus volutpat enim. Mauris vel odio quis libero volutpat tincidunt. Suspendisse non ipsum nec nibh porttitor sagittis vitae sed risus. Praesent sodales congue congue.Nullam sit amet turpis vitae felis tincidunt tempor. Nam in elit enim. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur dapibus aliquam nibh sit amet dapibus. Suspendisse dui nisi, vehicula eget nulla vel, interdum fermentum augue. Duis pharetra dignissim ligula id vulputate. Vivamus euismod egestas sem, non mattis mi mollis at. Vestibulum faucibus vitae leo sit amet aliquet.',
     link: '',
     detail:'',
+    screenshots: [
+      
+    ],
   },
 
 ];
