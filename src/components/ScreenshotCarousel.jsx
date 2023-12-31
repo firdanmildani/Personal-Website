@@ -11,7 +11,6 @@ const ScreenshotCarousel = ({ screenshots }) => {
             src={screenshot}
             alt={`Screenshot ${index + 1}`}
           />
-          {/* You can add a caption or additional elements for each screenshot */}
         </Carousel.Item>
       ))}
     </Carousel>

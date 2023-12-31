@@ -9,12 +9,10 @@ import { useParams } from 'react-router-dom';
 const PortfolioPage = () => {
     const { portfolioId } = useParams();
   
-    // Filter out the current portfolio item
     const filteredPortfolioItems = portfolioItems.filter(
       (portfolio) => portfolio._id !== portfolioId
     );
   
-    // Take the first three filtered items to display as recommendations
     const recommendations = filteredPortfolioItems.slice(0, 3);
   
     return (
@@ -35,7 +33,7 @@ const PortfolioPage = () => {
           {recommendations.map((portfolio) => (
               <PortfolioItemMore
                 _id={portfolio._id}
-                key={portfolio._id} // Use _id as the unique key
+                key={portfolio._id}
                 title={portfolio.title}
                 imageSrc={portfolio.imageSrc}
               />

@@ -16,7 +16,7 @@ const PortfolioItemMore = (props) => {
                     <img src={props.imageSrc} alt={props.title} />
                 </div>
             </div>                                  
-            </Link>
+        </Link>
     </div>
   )
 }
