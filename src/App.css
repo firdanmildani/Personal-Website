@@ -215,8 +215,8 @@ span {
 #media {
   background-color: #F7F8F9;
 }
-.carousel-container {
-  border: #0b090a11 1px solid;
+.carousel {
+  border: #0b090a15 1px solid;
 }
 
 /* Contact */

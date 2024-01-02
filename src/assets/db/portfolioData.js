@@ -33,11 +33,12 @@ const portfolioItems = [
     imageSrc: '/img/notes-banner.png',
     showcase: '/img/showcase-notes.png',
     logo: '/img/notes-logo.png',
-    description: 'Nulla consectetur ante at vulputate ullamcorper. Donec porta, magna eu facilisis condimentum, leo libero porta tortor, eget feugiat nibh metus sed sem. Nulla facilisi. Integer maximus nunc id nibh laoreet vehicula. Nullam nisl nisi, tincidunt eu porta nec, volutpat in ante. Nulla facilisi. Suspendisse fringilla egestas arcu eget vestibulum. Ut ultricies nulla urna, vel cursus augue lobortis vel. Aenean elementum purus eget massa sodales, non rutrum sapien rhoncus. Cras at auctor orci. Mauris non felis in tellus rhoncus rutrum vel vitae massa. Phasellus aliquet tellus sit amet magna malesuada suscipit. Sed mauris mauris, euismod ac mauris eu, maximus volutpat enim. Mauris vel odio quis libero volutpat tincidunt. Suspendisse non ipsum nec nibh porttitor sagittis vitae sed risus. Praesent sodales congue congue.Nullam sit amet turpis vitae felis tincidunt tempor. Nam in elit enim. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur dapibus aliquam nibh sit amet dapibus. Suspendisse dui nisi, vehicula eget nulla vel, interdum fermentum augue. Duis pharetra dignissim ligula id vulputate. Vivamus euismod egestas sem, non mattis mi mollis at. Vestibulum faucibus vitae leo sit amet aliquet.',
+    description: 'This Personal Notes Website project was developed as part of a course assignment with the goal of providing a streamlined and intuitive platform for organizing personal notes. This website allows users to create, manage, and organize their notes effortlessly. Users can jot down their thoughts, view their note lists, and use a search function to easily find specific notes. In addition, the platform allows notes to be archived and deleted when no longer needed, improving the overall user experience by facilitating efficient note management without unnecessary complexity.',
     link: 'https://github.com/firdanmildani/personal-note',
     detail:'View Repository',
     screenshots: [
-
+      '/img/notes-screenshot1.jpg',
+      '/img/notes-screenshot2.jpg',
     ],
   },
   {
@@ -47,12 +48,13 @@ const portfolioItems = [
     imageSrc: '/img/assente-banner.png',
     showcase: '/img/showcase-assente.png',
     logo: '/img/assente-logo.png',
-    description: 'Nulla consectetur ante at vulputate ullamcorper. Donec porta, magna eu facilisis condimentum, leo libero porta tortor, eget feugiat nibh metus sed sem. Nulla facilisi. Integer maximus nunc id nibh laoreet vehicula. Nullam nisl nisi, tincidunt eu porta nec, volutpat in ante. Nulla facilisi. Suspendisse fringilla egestas arcu eget vestibulum. Ut ultricies nulla urna, vel cursus augue lobortis vel. Aenean elementum purus eget massa sodales, non rutrum sapien rhoncus. Cras at auctor orci. Mauris non felis in tellus rhoncus rutrum vel vitae massa. Phasellus aliquet tellus sit amet magna malesuada suscipit.',
-    description1: 'Sed mauris mauris, euismod ac mauris eu, maximus volutpat enim. Mauris vel odio quis libero volutpat tincidunt. Suspendisse non ipsum nec nibh porttitor sagittis vitae sed risus. Praesent sodales congue congue.Nullam sit amet turpis vitae felis tincidunt tempor. Nam in elit enim. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur dapibus aliquam nibh sit amet dapibus. Suspendisse dui nisi, vehicula eget nulla vel, interdum fermentum augue. Duis pharetra dignissim ligula id vulputate. Vivamus euismod egestas sem, non mattis mi mollis at. Vestibulum faucibus vitae leo sit amet aliquet.',
+    description: 'The Assente design was created as part of a college assignment, specifically designed to streamline student attendance tracking. With different functionalities tailored for administrators, lecturers, and students, the platform serves as a comprehensive attendance management system. Lecturers can generate unique attendance codes for students, manage their schedules, check attendance records, and perform administrative tasks crucial to efficient class management. Students, on the other hand, benefit from the ability to input attendance codes, access their schedules, submit pardon letters for absences, and monitor their attendance history. Meanwhile, administrators have control over user accounts, including lecturer and student profiles, and possess the authority to add or modify course-related information. The platform\'s many features are designed enhance attendance monitoring and administrative tasks while providing a user-friendly experience.',
     link: '',
     detail:'',
     screenshots: [
-      
+      '/img/assente-screenshot1.png',
+      '/img/assente-screenshot2.png',
+      '/img/assente-screenshot3.png',
     ],
   },
   {
@@ -62,11 +64,21 @@ const portfolioItems = [
     imageSrc: '/img/vanillatelle-banner1.png',
     showcase: '/img/showcase-vanillatelle.png',
     logo: '/img/vanillatelle-logo.png',
-    description: 'Nulla consectetur ante at vulputate ullamcorper. Donec porta, magna eu facilisis condimentum, leo libero porta tortor, eget feugiat nibh metus sed sem. Nulla facilisi. Integer maximus nunc id nibh laoreet vehicula. Nullam nisl nisi, tincidunt eu porta nec, volutpat in ante. Nulla facilisi. Suspendisse fringilla egestas arcu eget vestibulum. Ut ultricies nulla urna, vel cursus augue lobortis vel. Aenean elementum purus eget massa sodales, non rutrum sapien rhoncus. Cras at auctor orci. Mauris non felis in tellus rhoncus rutrum vel vitae massa. Phasellus aliquet tellus sit amet magna malesuada suscipit. Sed mauris mauris, euismod ac mauris eu, maximus volutpat enim. Mauris vel odio quis libero volutpat tincidunt. Suspendisse non ipsum nec nibh porttitor sagittis vitae sed risus. Praesent sodales congue congue.Nullam sit amet turpis vitae felis tincidunt tempor. Nam in elit enim. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur dapibus aliquam nibh sit amet dapibus. Suspendisse dui nisi, vehicula eget nulla vel, interdum fermentum augue. Duis pharetra dignissim ligula id vulputate. Vivamus euismod egestas sem, non mattis mi mollis at. Vestibulum faucibus vitae leo sit amet aliquet.',
+    description: 'The Vanillatelle website is the digital facade of a prominent vanilla exporting company specializing in a range of premium vanilla products, from Tahitian to Planifolia beans, vanilla seeds and vanilla chunk. With a foundation built on React.js, the site boasts a user-friendly interface that incorporates essential features such as a product search and filtering mechanism. Users can efficiently navigate through the diverse catalog of vanilla offerings, using the search function to locate specific products and filters to narrow their preferences based on various criteria. As a digital hub for vanilla enthusiasts and buyers alike, Vanillatelle\'s website aims to provide a seamless browsing experience while showcasing the quality and variety of their premium vanilla products without overwhelming the visitor with unnecessary complexity.',
     link: 'https://vanillatelle.com',
     detail:'Visit The Website',
     screenshots: [
-      
+      '/img/vanillatelle-screenshot1.jpg',
+      '/img/vanillatelle-screenshot2.jpg',
+      '/img/vanillatelle-screenshot3.jpg',
+      '/img/vanillatelle-screenshot4.jpg',
+      '/img/vanillatelle-screenshot5.jpg',
+      '/img/vanillatelle-screenshot6.jpg',
+      '/img/vanillatelle-screenshot7.jpg',
+      '/img/vanillatelle-screenshot8.jpg',
+      '/img/vanillatelle-screenshot9.jpg',
+      '/img/vanillatelle-screenshot10.jpg',
+      '/img/vanillatelle-screenshot11.jpg',
     ],
   },
   {
@@ -76,10 +88,17 @@ const portfolioItems = [
     imageSrc: '/img/fashion-ecommerce-banner.png',
     showcase: '/img/showcase-fashion-ecommerce.png',
     logo: '/img/fashion-ecommerce-logo.png',
-    description: 'Nulla consectetur ante at vulputate ullamcorper. Donec porta, magna eu facilisis condimentum, leo libero porta tortor, eget feugiat nibh metus sed sem. Nulla facilisi. Integer maximus nunc id nibh laoreet vehicula. Nullam nisl nisi, tincidunt eu porta nec, volutpat in ante. Nulla facilisi. Suspendisse fringilla egestas arcu eget vestibulum. Ut ultricies nulla urna, vel cursus augue lobortis vel. Aenean elementum purus eget massa sodales, non rutrum sapien rhoncus. Cras at auctor orci. Mauris non felis in tellus rhoncus rutrum vel vitae massa. Phasellus aliquet tellus sit amet magna malesuada suscipit. Sed mauris mauris, euismod ac mauris eu, maximus volutpat enim. Mauris vel odio quis libero volutpat tincidunt. Suspendisse non ipsum nec nibh porttitor sagittis vitae sed risus. Praesent sodales congue congue.Nullam sit amet turpis vitae felis tincidunt tempor. Nam in elit enim. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur dapibus aliquam nibh sit amet dapibus. Suspendisse dui nisi, vehicula eget nulla vel, interdum fermentum augue. Duis pharetra dignissim ligula id vulputate. Vivamus euismod egestas sem, non mattis mi mollis at. Vestibulum faucibus vitae leo sit amet aliquet.',
+    description: 'The Mildy fashion e-commerce design, meticulously crafted using Figma, embodies a seamless and visually compelling platform for fashion enthusiasts. Designed with a keen eye for aesthetics and functionality, Mildy offers a curated selection of on-trend apparel and accessories. Designed with the user experience in mind, the interface incorporates intuitive navigation and visually appealing elements to ensure an immersive and enjoyable browsing experience. From showcasing the latest fashion trends to simplifying the shopping experience, the design emphasizes accessibility and ease of use. Through the strategic use of Figma\'s design tools, Mildy\'s interface captures the essence of modern fashion while providing a sophisticated yet inviting digital storefront for fashion-forward individuals.',
     link: '',
     detail:'',
     screenshots: [
+      '/img/fashion-ecommerce-screenshot1.png',
+      '/img/fashion-ecommerce-screenshot2.png',
+      '/img/fashion-ecommerce-screenshot3.png',
+      '/img/fashion-ecommerce-screenshot4.png',
+      '/img/fashion-ecommerce-screenshot5.png',
+      '/img/fashion-ecommerce-screenshot6.png',
+      '/img/fashion-ecommerce-screenshot7.png',
       
     ],
   },
@@ -90,11 +109,16 @@ const portfolioItems = [
     imageSrc: '/img/nayakarya-banner.png',
     showcase: '/img/showcase-nayakarya.png',
     logo: '/img/nayakarya-logo.png',
-    description: 'Nulla consectetur ante at vulputate ullamcorper. Donec porta, magna eu facilisis condimentum, leo libero porta tortor, eget feugiat nibh metus sed sem. Nulla facilisi. Integer maximus nunc id nibh laoreet vehicula. Nullam nisl nisi, tincidunt eu porta nec, volutpat in ante. Nulla facilisi. Suspendisse fringilla egestas arcu eget vestibulum. Ut ultricies nulla urna, vel cursus augue lobortis vel. Aenean elementum purus eget massa sodales, non rutrum sapien rhoncus. Cras at auctor orci. Mauris non felis in tellus rhoncus rutrum vel vitae massa. Phasellus aliquet tellus sit amet magna malesuada suscipit. Sed mauris mauris, euismod ac mauris eu, maximus volutpat enim. Mauris vel odio quis libero volutpat tincidunt. Suspendisse non ipsum nec nibh porttitor sagittis vitae sed risus. Praesent sodales congue congue.Nullam sit amet turpis vitae felis tincidunt tempor. Nam in elit enim. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur dapibus aliquam nibh sit amet dapibus. Suspendisse dui nisi, vehicula eget nulla vel, interdum fermentum augue. Duis pharetra dignissim ligula id vulputate. Vivamus euismod egestas sem, non mattis mi mollis at. Vestibulum faucibus vitae leo sit amet aliquet.',
+    description: 'The Nayakarya architecture firm\'s website, meticulously designed via Figma, serves as an online representation of a dynamic and innovative architecture firm. Created with a focus on sleek design and user experience, the site encapsulates Nayakarya\'s ethos and capabilities in the field of architecture. Using Figma\'s versatile design tools, the interface blends functionality with visual appeal, showcasing the firm\'s portfolio, past projects and testimonials. It offers seamless navigation, allowing visitors to explore architectural masterpieces, learn about the firm\'s values, and easily connect with the team. The design emphasizes Nayakarya\'s commitment to creativity and excellence, presenting a digital platform that reflects the firm\'s dedication to architectural brilliance and client satisfaction.',
     link: '',
     detail:'',
     screenshots: [
-      
+      '/img/nayakarya-screenshot1.png',
+      '/img/nayakarya-screenshot2.png',
+      '/img/nayakarya-screenshot3.png',
+      '/img/nayakarya-screenshot4.png',
+      '/img/nayakarya-screenshot5.png',
+      '/img/nayakarya-screenshot6.png',
     ],
   },
 

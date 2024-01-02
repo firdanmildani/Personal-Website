@@ -18,7 +18,7 @@ const PortfolioDetail = () => {
                 </div>
             </div>
         </div>
-        <div className="section" id='description'>
+        <div className="section p-0" id='description'>
             <div className="container">
                 <div className="section-title text-center mb-5">
                     <div className="section-title">

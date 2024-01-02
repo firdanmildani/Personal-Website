@@ -3,7 +3,7 @@ import { Carousel } from 'react-bootstrap';
 
 const ScreenshotCarousel = ({ screenshots }) => {
   return (
-    <Carousel data-bs-theme="dark">
+    <Carousel data-bs-theme="dark" className='carousel'>
       {screenshots.map((screenshot, index) => (
         <Carousel.Item key={index}>
           <img
