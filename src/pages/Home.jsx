@@ -51,7 +51,7 @@ const Home = () => {
           </div>
       </Parallax>    
     </div>
-    <div id='about' className="section d-flex justify-content-center">
+    <section id='about' className="section d-flex justify-content-center">
         <div className="container">
             <div className="section-title text-center mb-5">
                 <div className="section-title">
@@ -70,7 +70,7 @@ const Home = () => {
                 </div>
                 <div className="row col-sm-3 col-12">
                     <div className='col-sm-12 col-6 text-center icon-menu'>
-                        <a href="/" onClick={handleDownload}>
+                        <a href="#" onClick={handleDownload}>
                             <i class="bi bi-file-earmark custom-icon"></i>
                             <h5>CV</h5>
                             <p>Download CV</p>
@@ -86,8 +86,8 @@ const Home = () => {
                 </div>
             </div>
         </div>
-    </div>
-    <div id='portfolio' className="section">
+    </section>
+    <section id='portfolio' className="section">
         <div className="container">
             <div className="row">
                 <div className="col-xs-12 col-md-12 col-md-centered col-lg-12">
@@ -128,14 +128,14 @@ const Home = () => {
                 </div>
             </div>
         </div>
-    </div>
+    </section>
     <div className="hero1">
       <Parallax className="hero-img" strength={300} bgImage="img/banner.jpg">
           <div className="hero-content-wrapper">
           </div>
       </Parallax>    
     </div>
-    <div id='experiences' className="section">
+    <section id='experiences' className="section">
         <div className="container d-flex justify-content-center row">
             <div className="section-title text-center mb-5">
                 <div className="section-title">
@@ -174,8 +174,8 @@ const Home = () => {
                 </div>
             </div>
         </div>
-    </div>
-    <div id='contact' className="section">
+    </section>
+    <section id='contact' className="section">
         <div className="container">
             <div className="section-title text-center mb-5">
                 <div className="section-title">
@@ -197,7 +197,7 @@ AND WOULD LOVE TO HEAR FROM YOU</h6>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
     </>
   )
 }
