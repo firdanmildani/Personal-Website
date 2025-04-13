@@ -1,5 +1,13 @@
 const experienceItems = [
     {
+        year:'2024', 
+        position:'QA Engineer',
+        company:'PT. Blue Bird Group',
+        type:'Internship',
+        date:'Dec 2024 - Mar 2025',
+        place:'Jakarta, Indonesia'
+    },
+    {
         year:'2022', 
         position:'Front-End Developer',
         company:'Kementerian Koperasi dan UKM Indonesia',

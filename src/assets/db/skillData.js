@@ -12,20 +12,20 @@ const skillItems = [
         imageSrc: '/img/js.png',
     },
     {
-        title: 'PHP',
-        imageSrc: '/img/php.png',
+        title: 'Manual Testing',
+        imageSrc: '/img/manual-test.png',
+    },
+    {
+        title: 'Playwright',
+        imageSrc: '/img/playwright.png',
+    },
+    {
+        title: 'Jest',
+        imageSrc: '/img/jest.png',
     },
     {
         title: 'ReactJs',
         imageSrc: '/img/reactjs.png',
-    },
-    {
-        title: 'Laravel',
-        imageSrc: '/img/laravel.png',
-    },
-    {
-        title: 'Bootstrap',
-        imageSrc: '/img/bootstrap.png',
     },
     {
         title: 'Figma',
