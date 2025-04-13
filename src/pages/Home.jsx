@@ -58,7 +58,7 @@ const Home = () => {
                     <h1>FIRDAN MILDANI</h1>
                 </div>
                 <div className="section-subtitle">
-                <h6>QA ENGINEER & FRONT-END/UI DEVELOPER<br/>
+                <h6>QA ENGINEER & FRONTEND DEVELOPER<br/>
                 Crafting digital experiences, one line at a time</h6>
                 </div>
             </div>
