@@ -80,8 +80,8 @@ const portfolioItems = [
     showcase: '/img/showcase-vanillatelle.png',
     logo: '/img/vanillatelle-logo.png',
     description: 'The Vanillatelle website is the digital facade of a prominent vanilla exporting company specializing in a range of premium vanilla products, from Tahitian to Planifolia beans, vanilla seeds and vanilla chunk. With a foundation built on React.js, the site boasts a user-friendly interface that incorporates essential features such as a product search and filtering mechanism. Users can efficiently navigate through the diverse catalog of vanilla offerings, using the search function to locate specific products and filters to narrow their preferences based on various criteria. As a digital hub for vanilla enthusiasts and buyers alike, Vanillatelle\'s website aims to provide a seamless browsing experience while showcasing the quality and variety of their premium vanilla products without overwhelming the visitor with unnecessary complexity.',
-    link: 'https://vanillatelle.com',
-    detail:'Visit The Website',
+    link: 'https://github.com/firdanmildani/vanillatelle',
+    detail:'View Repository',
     screenshots: [
       '/img/vanillatelle-screenshot1.jpg',
       '/img/vanillatelle-screenshot2.jpg',
