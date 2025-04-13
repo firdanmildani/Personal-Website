@@ -64,9 +64,10 @@ const Home = () => {
             </div>
             <div className='row d-flex justify-content-center'>
                 <div className="col-sm-9 col-12 mb-3">
-                    <p>Hello! I'm an informatics engineering graduate with a strong focus on front-end development, equipped with expertise in web development and UI/UX design.</p>
-                    <p>Proficient in React.js and adept at creating intuitive interfaces, I combine technical acumen with design principles to create engaging digital experiences. My skills extend to tools like Figma and Adobe Photoshop, allowing me to conceptualize and design user-centered interfaces that seamlessly integrate with development processes. I am eager to contribute my skills and creativity to projects that prioritize user experience and innovation.</p>
-                    <p>I'm excited about the opportunity to contribute my expertise to innovative projects and teams that want to create impactful digital solutions. Let's connect and explore how we can work together to create exceptional web experiences.</p>
+                    <p>Hello! I'm an <b>Informatics Engineering</b> graduate with a strong focus on <b>Frontend Development</b> and <b>QA Engineering</b></p>
+                    <p>Proficient in <b>React.js</b> and experienced in building responsive, high-performance web applications, I enjoy creating seamless and engaging user experiences.</p>
+                    <p>In addition to frontend development, I have hands-on experience in Quality Assurance, including both <b>manual testing</b> and <b>automation testing</b> using tools such as <b>Playwright</b> and <b>Jest</b>. I'm committed to ensuring that every product meets high standards of functionality, reliability, and performance through thorough testing and continuous feedback.</p>
+                    <p>I’m excited about the opportunity to contribute to innovative projects and collaborate with teams that value both user experience and software quality. Let’s connect and explore how we can work together to build exceptional digital solutions.</p>
                 </div>
                 <div className="row col-sm-3 col-12">
                     <div className='col-sm-12 col-6 text-center icon-menu'>

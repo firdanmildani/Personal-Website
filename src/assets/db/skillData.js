@@ -24,16 +24,16 @@ const skillItems = [
         imageSrc: '/img/jest.png',
     },
     {
+        title: 'Postman',
+        imageSrc: '/img/postman.png',
+    },
+    {
         title: 'ReactJs',
         imageSrc: '/img/reactjs.png',
     },
     {
         title: 'Figma',
         imageSrc: '/img/figma.png',
-    },
-    {
-        title: 'Photshop',
-        imageSrc: '/img/photoshop.png',
     },
 ];
 
